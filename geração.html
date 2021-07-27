@@ -1,0 +1,32 @@
+<meta charset="utf-8">
+
+<h1>Quantas gerações passaram?</h1>
+
+<script>
+
+	function pulaLinha(){
+		document.write ("<br>");
+
+	}
+
+	function mostra (frase){
+		document.write (frase);
+
+	}
+
+	var mediaParaEngravidar = 28;
+	var ano = 1500;
+	var anoAtual = 2021;
+	var media = (2021- 1500)/28;
+
+	mostra("A média de casal para ter filhos é " + mediaParaEngravidar + " anos");
+
+	pulaLinha();
+
+	mostra ("Desde " + ano + " quantas gerações passaram ?");
+
+	pulaLinha();
+
+	mostra ("Passaram " + Math.round (media) + " gerações");
+
+</script>
